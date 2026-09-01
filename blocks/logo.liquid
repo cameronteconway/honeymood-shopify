@@ -62,7 +62,8 @@
       {{ logo_image }}
     </div>
   {% else %}
-    {% render 'jumbo-text', text: shop.name %}
+    {% comment %} {% render 'jumbo-text', text: shop.name %} {% endcomment %}
+     <h1>store</h1>
   {% endif %}
 </div>
 
