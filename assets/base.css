@@ -1833,8 +1833,8 @@ main > .shopify-section:first-child .section:not(.disable-section-top-offset) {
 /* Logo */
 .header-logo span {
   font-family: 'Cormorant Garamond', serif !important;
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: none;
 }
