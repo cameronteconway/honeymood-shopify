@@ -77,11 +77,14 @@
     "variant_button_width": "equal-width-buttons",
     "content_for_index": [],
     "color_palette": {
-      "background": "#FAF6ED",
-      "foreground": "#4C4341",
-      "color1": "#333333",
-      "color2": "#eef1ea",
-      "color3": "#dfdfdf"
+      "background": "{{ settings.color_palette.color5 }}",
+      "foreground": "#4c4341",
+      "color1": "{{ settings.color_palette.foreground }}",
+      "color2": "{{ settings.color_palette.foreground }}",
+      "color3": "{{ settings.color_palette.background }}",
+      "color4": "{{ settings.color_palette.background }}",
+      "color5": "#FFF9F6",
+      "color6": "#264d37"
     }
   },
   "presets": {
