@@ -11,6 +11,7 @@
   "current": {
     "logo_height": 36,
     "logo_height_mobile": 28,
+    "page_text_color": "{{ settings.color_palette.color10 }}",
     "type_body_font": "sans_serif_n4",
     "type_subheading_font": "sans_serif_n4",
     "type_heading_font": "serif",
@@ -78,13 +79,18 @@
     "content_for_index": [],
     "color_palette": {
       "background": "{{ settings.color_palette.color5 }}",
-      "foreground": "#4c4341",
+      "foreground": "{{ settings.color_palette.color10 }}",
       "color1": "{{ settings.color_palette.foreground }}",
       "color2": "{{ settings.color_palette.foreground }}",
       "color3": "{{ settings.color_palette.background }}",
       "color4": "{{ settings.color_palette.background }}",
-      "color5": "#FFF9F6",
-      "color6": "#264d37"
+      "color5": "#fff9f6",
+      "color6": "#264d37",
+      "color7": "{{ settings.color_palette.color9 }}",
+      "color8": "#FAF6ED",
+      "color9": "#2D341B",
+      "color10": "#4C4341",
+      "color11": "#F1EDE3"
     }
   },
   "presets": {
