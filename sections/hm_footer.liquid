@@ -7,6 +7,16 @@
   assign icon_color = section.settings.icon_color
 %}
 
+{% liquid
+  if section.settings.section_background_color != blank
+    render 'contrast-override', background_color: section.settings.section_background_color, section_id: section.id
+  endif
+%}
+
+<div
+  class="section-background{% if section.settings.section_background_color != blank %} color-custom-{{ section.id }}{% endif %}"
+></div>
+
 <div class="section section--page-width honeymood-footer">
   <div class="footer-container color-custom-{{ section.id }}">
     <div class="footer-content">
@@ -108,7 +118,7 @@
 </div>
 
 {% style %}
-  footer:has(.honeymood-footer) {
+  footer:has(.honeymood-footer) .honeymood-footer {
     padding: 24px 0 24px 0;
   }
 
@@ -287,6 +297,12 @@
     {
       "type": "header",
       "content": "Brand Logo"
+    },
+    {
+      "type": "color",
+      "id": "section_background_color",
+      "label": "t:honeymood.section_background_color",
+      "default": "#FAF6ED"
     },
     {
       "type": "image_picker",

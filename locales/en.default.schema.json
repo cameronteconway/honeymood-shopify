@@ -168,7 +168,8 @@
   "honeymood": {
     "footer": "Honeymood footer",
     "footer_copyright": "Copyright © 2026 Honeymood. All rights reserved.",
-    "footer_copyright_label": "Copyright text"
+    "footer_copyright_label": "Copyright text",
+    "section_background_color": "Section background color"
   },
   "html_defaults": {
     "join_our_email_list": "<h2>Join our email list</h2>",
