@@ -82,6 +82,7 @@
       ],
       "name": "t:honeymood.footer",
       "settings": {
+        "section_background_color": "{{ settings.color_palette.color8 }}",
         "logo_width": 120,
         "copyright_text": "Copyright © 2026 Honeymood. All rights reserved.",
         "show_policy_links": true,
